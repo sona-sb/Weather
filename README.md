@@ -56,4 +56,6 @@ curl -X POST "http://127.0.0.1:8000/weather" -H "Content-Type: application/json"
 curl -X POST "http://127.0.0.1:8000/info" -H "Content-Type: application/json" -d '{"locations":[{"q":"London"}]}'
 ```
 
+for the location "Trivandrum" the response body for "info" is as follows:
+![image](https://github.com/user-attachments/assets/f74a7cfe-216f-4dda-91bc-108a06570e4a)
 
